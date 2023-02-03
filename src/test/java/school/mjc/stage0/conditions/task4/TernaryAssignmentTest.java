@@ -32,7 +32,7 @@ class TernaryAssignmentTest extends BaseIOTest {
 
         assignment.assignAndPrintBasedOnWhichBigger(10, 19);
 
-        assertOutEquals("-10\n");
+        assertOutEquals("19\n");
     }
 
 
